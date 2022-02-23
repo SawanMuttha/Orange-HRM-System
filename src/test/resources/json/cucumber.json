@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12788671900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Login Page of Orange HRM",
+            "match": {
+              "location": "LoginPageSteps.openLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 464100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 351300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LeavePageSteps.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify the Username Validation by Clicking on Login Button Directly",
+        "description": "",
+        "id": "login-in-orange-hrm-system;verify-the-username-validation-by-clicking-on-login-button-directly",
+        "after": [
+          {
+            "result": {
+              "duration": 2830473100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageSteps.tearDown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 79600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LeavePageSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162806500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Click on Login Button",
+            "match": {
+              "location": "LoginPageSteps.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89727500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "UserName Field will Show the Validation Message",
+            "match": {
+              "location": "LoginPageSteps.usernameValidationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@ValidationTesting"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8869199800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Login Page of Orange HRM",
+            "match": {
+              "location": "LoginPageSteps.openLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 626100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 392800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LeavePageSteps.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify the Password Validation by Clicking on Login Button Directly",
+        "description": "",
+        "id": "login-in-orange-hrm-system;verify-the-password-validation-by-clicking-on-login-button-directly",
+        "after": [
+          {
+            "result": {
+              "duration": 3002851700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageSteps.tearDown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 20300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LeavePageSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153167800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Click on Login Button",
+            "match": {
+              "location": "LoginPageSteps.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69928800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Password Field will Show the Validation Message",
+            "match": {
+              "location": "LoginPageSteps.passwordValidationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@ValidationTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Login in Orange HRM System",
+    "description": "",
+    "id": "login-in-orange-hrm-system",
+    "keyword": "Feature",
+    "uri": "Features/OrangeHRMLogin.feature"
+  }
+]
